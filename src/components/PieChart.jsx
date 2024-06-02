@@ -10,7 +10,7 @@ export const PieChartComp = () => {
 
     useEffect(() => {
         // Fetch data from JSON file
-        fetch('/FakeData.json')
+        fetch('/eve.json')
             .then(response => response.json())
             .then(data => {
                 // Count occurrences of each category

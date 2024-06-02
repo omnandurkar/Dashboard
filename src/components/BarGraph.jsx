@@ -11,7 +11,7 @@ export const BarGraph = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/FakeData.json');
+        const response = await fetch('/eve.json');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

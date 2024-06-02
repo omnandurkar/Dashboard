@@ -38,7 +38,7 @@ export const LineGraph = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/FakeData.json');
+        const response = await fetch('/eve.json');
         const jsonData = await response.json();
 
         // Extract timestamps and categorize alerts
